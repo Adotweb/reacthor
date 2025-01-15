@@ -1,0 +1,11 @@
+[package]
+name = "reacthor"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+type_lib = {path="../thorlang/type_lib"}
+execution_lib = {path="../thorlang/execution_lib"}
